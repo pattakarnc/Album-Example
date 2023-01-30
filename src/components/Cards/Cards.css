@@ -1,0 +1,42 @@
+.Wrapper {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 27.5%;
+  border: 1px solid;
+  border-color: #d1cece;
+  border-radius: 2px;
+  font-size: small;
+  margin: 8px;
+}
+.cardBody {
+  margin: 15px;
+}
+.cardImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bodyBtn button {
+  background-color: white;
+  border: 1px solid;
+  border-color: #939191;
+  color: #727272;
+  padding: 3px 5px;
+  float: left;
+}
+.bodyBtn:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bodyBtn button:not(:last-child){
+  border-right: none;
+}
+.time {
+  float: right;
+  position: relative;
+  bottom: 19px;
+  color: #727272;
+}

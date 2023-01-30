@@ -1,0 +1,48 @@
+#container {
+	box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 350px;
+	width: 700px;
+  font-weight: lighter;
+}
+.card-details {
+	position: relative;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+  font-size: 18px;
+}
+.cardDetailName {
+  font-size: 24px;
+}
+.cardDetailDesc {
+  color: #7d7d7d;
+}
+.card-image {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+  width: 51%;
+	float: right;
+  bottom: 31px;
+}
+
+#container img {
+  width: 100%;
+  height: 100%;
+}
+
+.backBtn {
+  position: relative; 
+  right: 47%;
+  padding: 8px 15px;
+  background-color: #efefef;
+  border-radius: 50%;
+  border: none;
+}
+

@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  margin: auto;
+  width: 42%;
+  font-weight: lighter;
+  margin-bottom: 10.5%;
+}
+.topic {
+  color: black;
+  font-size: 32.3px;
+  margin-bottom: 0px;
+}
+.headerText {
+  margin-top: 6px;
+  color: grey;
+  margin-bottom: 16px;
+}
+.headerBtn {
+  border: none;
+  color: white;
+  padding: 9.5px 8px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  cursor: pointer;
+}
+#mainBtn {
+  background-color: #1e5dfe;
+}
+#secondBtn {
+  background-color: grey;
+}
